@@ -1,6 +1,4 @@
-package Lestion05.online;
-
-import Lestion05.online.Point;
+package Lection05.online;
 
 /**
  * Created by Aleksandr Gladkov [Anticisco]
