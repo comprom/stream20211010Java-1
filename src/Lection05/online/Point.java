@@ -7,7 +7,19 @@ package Lection05.online;
 
 public class Point {
 
-    int x;
-    int y;
+    public int x;
+    public int y;
 
+    public Point() {
+    }
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public String toString(){
+        return "point x: " + x + " point y: " + y;
+    }
 }
